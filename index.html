@@ -1,0 +1,236 @@
+/* ==============================
+ESTILOS GENERALES
+============================== */
+
+* {
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+background-color: #0b1120;
+color: #e5e7eb;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.7;
+}
+
+/* ==============================
+ENCABEZADO
+============================== */
+
+header {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 70px 5%;
+text-align: center;
+background-color: #111c35;
+border-bottom: 4px solid #38bdf8;
+}
+
+header h1 {
+margin: 0 0 15px;
+color: #38bdf8;
+font-size: 3em;
+}
+
+header p {
+margin: 0;
+color: #cbd5e1;
+font-size: 1.2em;
+}
+
+/* ==============================
+NAVEGACIÓN
+============================== */
+
+nav {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 18px 2%;
+text-align: center;
+background-color: #172554;
+}
+
+nav a {
+display: inline-block;
+margin: 5px 8px;
+padding: 8px 12px;
+color: #e0f2fe;
+text-decoration: none;
+border-radius: 5px;
+}
+
+nav a:hover,
+nav a:focus {
+background-color: #38bdf8;
+color: #07111f;
+}
+
+/* ==============================
+CONTENIDO PRINCIPAL
+============================== */
+
+main {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+section {
+margin: 35px 0;
+padding: 35px 5%;
+background-color: #111827;
+border-left: 4px solid #38bdf8;
+border-radius: 8px;
+}
+
+article {
+max-width: 1000px;
+margin: 0 auto;
+}
+
+h2 {
+margin-top: 0;
+color: #38bdf8;
+font-size: 2em;
+}
+
+h3 {
+color: #a78bfa;
+font-size: 1.35em;
+}
+
+p {
+color: #dbeafe;
+}
+
+ul,
+ol {
+padding-left: 30px;
+}
+
+li {
+margin-bottom: 8px;
+}
+
+/* ==============================
+CITAS
+============================== */
+
+blockquote {
+margin: 25px 0;
+padding: 20px 25px;
+background-color: #172554;
+border-left: 5px solid #a78bfa;
+color: #e0f2fe;
+font-style: italic;
+}
+
+/* ==============================
+TABLA
+============================== */
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 25px;
+background-color: #172033;
+}
+
+th,
+td {
+padding: 14px;
+border: 1px solid #334155;
+text-align: left;
+}
+
+th {
+background-color: #1e3a8a;
+color: #ffffff;
+}
+
+td {
+color: #dbeafe;
+}
+
+/* ==============================
+VIDEO
+============================== */
+
+iframe {
+display: block;
+width: 100%;
+max-width: 900px;
+height: 500px;
+margin: 0 auto;
+border: 0;
+}
+
+figcaption {
+margin-top: 10px;
+color: #94a3b8;
+text-align: center;
+font-size: 0.95em;
+}
+
+/* ==============================
+GALERÍA
+============================== */
+
+#galeria {
+text-align: center;
+}
+
+#galeria figure {
+display: inline-block;
+vertical-align: top;
+width: 29%;
+margin: 1.5%;
+padding: 12px;
+background-color: #172033;
+border-radius: 8px;
+text-align: center;
+}
+
+#galeria img {
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+/* ==============================
+PIE DE PÁGINA
+============================== */
+
+footer {
+width: 90%;
+max-width: 1200px;
+margin: 40px auto 0;
+padding: 30px 5%;
+background-color: #111c35;
+text-align: center;
+border-top: 3px solid #38bdf8;
+}
+
+footer p {
+margin: 0;
+color: #94a3b8;
+}
+
+/* ==============================
+ADAPTACIÓN FLUIDA
+Sin Flexbox, Grid ni Media Queries
+============================== */
+
+img,
+iframe {
+max-width: 100%;
+}
